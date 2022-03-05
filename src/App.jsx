@@ -76,10 +76,7 @@ export const App = () => {
               <li>
                 <div className="list-row">
                   <p> {todo} </p>
-                  <button onClick={() => moveToIncomplete(index)}>
-                    {" "}
-                    back{" "}
-                  </button>
+                  <button onClick={() => moveToIncomplete(index)}>back</button>
                 </div>
               </li>
             );
